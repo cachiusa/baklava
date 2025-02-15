@@ -1,0 +1,1 @@
+AOSP stuff. Not to be confused with Linux device tree
