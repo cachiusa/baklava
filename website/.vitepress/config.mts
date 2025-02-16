@@ -1,56 +1,57 @@
 import { defineConfig } from "vitepress";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
-import sidebar from "../../docs/_sidebar.json";
+import sidebar from "../docs/_sidebar.json";
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig(({ mode }) => {
-    const prod = mode === "production";
-    return {
-        title: "",
-        description: "",
+export default defineConfig({
+    title: "Android Wiki",
+    description: "",
 
-        srcDir: prod ? "docs" : "../docs",
-        outDir: "../.build/docs",
-        cleanUrls: true,
+    srcDir: "docs",
+    outDir: "build/docs",
+    cleanUrls: true,
 
-        markdown: {
-            config(md) {
-                md.use(tabsMarkdownPlugin);
-            },
+    markdown: {
+        config(md) {
+            md.use(tabsMarkdownPlugin);
+        },
+    },
+
+    vite: {
+        resolve: {
+            preserveSymlinks: true,
+        },
+    },
+
+    themeConfig: {
+        // https://vitepress.dev/reference/default-theme-config
+        logo: {
+            light: "",
+            dark: "",
+        },
+        title: '',
+
+        nav: [
+            { text: "Platform", link: "/platform" },
+            { text: "Community", link: "/community" }
+        ],
+
+        search: {
+            provider: "local",
         },
 
-        vite: {
-            resolve: {
-                preserveSymlinks: true,
-            },
+        editLink: {
+            pattern: ''
         },
 
-        themeConfig: {
-            // https://vitepress.dev/reference/default-theme-config
-            logo: {
-                light: "",
-                dark: "",
-            },
-            title: '',
+        lastUpdated: true,
 
-            nav: [{ text: "Home", link: "/" }],
+        sidebar: sidebar,
 
-            search: {
-                provider: "local",
-            },
+        externalLinkIcon: true,
 
-            editLink: {
-                pattern: ''
-            },
-            lastUpdated: true,
-
-            sidebar: sidebar,
-
-            externalLinkIcon: true,
-
-            socialLinks: [
-                { icon: "github", link: "" },
-            ],
-        }
-    };
+        socialLinks: [
+            { icon: "github", link: "" },
+        ],
+    }
 });
