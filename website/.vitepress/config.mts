@@ -8,7 +8,6 @@ export default defineConfig({
     description: "",
 
     srcDir: "docs",
-    outDir: "build/docs",
     cleanUrls: true,
 
     markdown: {
@@ -29,7 +28,7 @@ export default defineConfig({
             light: "",
             dark: "",
         },
-        title: '',
+        title: 'Android Wiki',
 
         nav: [
             { text: "Platform", link: "/platform" },
