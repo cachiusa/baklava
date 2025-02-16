@@ -1,0 +1,1 @@
+https://siddroid.com/post/android/the-starter-kit-for-android-platform-engineering
