@@ -10,6 +10,8 @@ export default defineConfig({
     srcDir: "docs",
     cleanUrls: true,
 
+    base: '/android-platform-wiki/',
+
     markdown: {
         config(md) {
             md.use(tabsMarkdownPlugin);
