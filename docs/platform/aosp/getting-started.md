@@ -62,7 +62,7 @@ I’ve observed memory usage ranging between 12 to 30GB during different tasks w
 We will set-up an IDE in the later part of this article and use tools for importing the Android Framework packages into the IDE for daily development.
 
 sd_card
-### NVMe Storage for fast access
+## NVMe Storage for fast access
 Synchronizing the entire Android source and building a single specified target can occupy up to 500GB of storage. As the system compiles Android using Soong, it simultaneously writes out the compiled files. Opting for fast read-write storage facilitates quick access to source code within your preferred IDE, as well as faster compilation.
 
 Although there is no upper limit on storage specifications, a recommended setup would include a substantial 1-2TB NVMe drive.
