@@ -1,2 +1,2 @@
-# Android Wiki
-Start reading from [here](docs/index.md)
+# AOSPWiki
+Start reading [here](docs/index.md)
