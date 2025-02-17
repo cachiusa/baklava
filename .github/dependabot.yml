@@ -10,7 +10,7 @@ updates:
           - "*"
 
   - package-ecosystem: npm
-    directory: /build-docs
+    directory: /website
     schedule:
       interval: "monthly"
     groups:
