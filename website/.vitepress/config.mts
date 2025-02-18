@@ -13,6 +13,14 @@ export default defineConfig({
 
     base: '/aospwiki/',
 
+    head: [
+        ['link', { rel: 'icon', href: '/aospwiki/favicon.svg' }],
+        ['style',
+            { type: "text/css" },
+            `.imgdesc { text-align:center;color:grey;font-style:italic; }`
+        ]
+    ],
+
     markdown: {
         config(md) {
             md.use(tabsMarkdownPlugin);
@@ -27,10 +35,7 @@ export default defineConfig({
 
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        logo: {
-            light: "",
-            dark: "",
-        },
+        logo: "/favicon.svg",
 
         nav: topbar,
 

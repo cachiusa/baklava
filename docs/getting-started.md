@@ -1,10 +1,6 @@
-<style>
-    .alt {text-align:center;color:grey;font-style:italic;}
-</style>
-
 # The Starter kit for Android Platform Engineering
 ![](https://siddroid.com/images/siddroid-aosp-android-platform-engineering-thumb.png)
-<p class=alt>The bare-bone setup for Android System Building on Ubuntu</p>
+<p class=imgdesc>The bare-bone setup for Android System Building on Ubuntu</p>
 
 This article is your ultimate guide, taking you from the initial machine setup for building AOSP, and IDE configurations, to booting your very first Android system image on a compatible device. Let’s get started!
 
@@ -302,7 +298,7 @@ It hardly takes a minute to deploy our build to the actual device via fastboot. 
 
 ![](https://siddroid.com/images/siddroid-booting-aosp-on-a-pixel.JPG)
 
-<p class=alt>Android 15 - AOSP build booting on a Google Pixel 6A</p>
+<p class=imgdesc>Android 15 - AOSP build booting on a Google Pixel 6A</p>
 
 Super! We have a full setup for generating Android system images and testing them on our physical devices. This concludes our first major milestone for building Android and developing the open-source platform.
 
@@ -322,7 +318,7 @@ Proceed to [developer.android.com](https://developer.android.com/studio/platform
 
 ![](https://siddroid.com/images/siddroid-asfp-android-studio-platform-setup-aosp.png)
 
-<p class=alt>Initial Setup for ASfP</p>
+<p class=imgdesc>Initial Setup for ASfP</p>
 
 The initial setup is straightforward.
 - Open the root of your repo directory which is `/Projects/AOSP` in our example.
@@ -330,7 +326,7 @@ The initial setup is straightforward.
 - Add any modules you specifically want to develop, in this example, I will import the entire AOSP Framework.
 - You will find that the IDE will initiate sync using the Soong build system and start building the module much like Gradle builds for a third-party consumer apps in the regular Android studio.
 
-<p class=alt>A framework class opened within ASfP</p>
+<p class=imgdesc>A framework class opened within ASfP</p>
 
 Now, you can dive into the source files, add new modules and packages, and build Android! Contribute to the OS, experiment with its system, framework, and applications, and unleash your creativity.
 
