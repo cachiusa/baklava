@@ -1,24 +1,24 @@
 import { defineConfig } from "vitepress";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
-import leftbar from "../docs/_leftbar.json";
-import topbar from "../docs/_topbar.json";
+import leftbar from "./_leftbar.json";
+import topbar from "./_topbar.json";
+
+const sitename = "Baklava"
+const sitegithub = "cachiusa/baklava"
+const sitebase = "/baklava/"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-    title: "AOSPWiki",
-    description: "",
+    title: sitename,
+    description: "A community-driven wiki of the Android Platform",
 
-    srcDir: "docs",
+    srcDir: "../docs",
     cleanUrls: true,
 
-    base: '/aospwiki/',
+    base: sitebase,
 
     head: [
-        ['link', { rel: 'icon', href: '/aospwiki/favicon.svg' }],
-        ['style',
-            { type: "text/css" },
-            `.imgdesc { text-align:center;color:grey;font-style:italic; }`
-        ]
+        ["link", { rel: "icon", href: `${sitebase}favicon.svg` }]
     ],
 
     markdown: {
@@ -35,7 +35,7 @@ export default defineConfig({
 
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        logo: "/favicon.svg",
+        logo: "/icons/studio_platform.svg",
 
         nav: topbar,
 
@@ -44,13 +44,13 @@ export default defineConfig({
         },
 
         editLink: {
-            pattern: "https://github.com/cachiusa/aospwiki/edit/main/docs/:path"
+            pattern: `https://github.com/${sitegithub}/edit/main/docs/:path`
         },
 
         lastUpdated: {
             formatOptions: {
-                dateStyle: 'short',
-                timeStyle: 'short'
+                dateStyle: "short",
+                timeStyle: undefined
             }
         },
 
@@ -59,7 +59,7 @@ export default defineConfig({
         externalLinkIcon: true,
 
         socialLinks: [
-            { icon: "github", link: "https://github.com/cachiusa/aospwiki" },
+            { icon: "github", link: `https://github.com/${sitegithub}` },
         ],
 
         outline: "deep",

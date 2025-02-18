@@ -1,9 +1,8 @@
-# AOSPWiki
-A wide range of articles and guides on Android development can be found across various platforms, including popular resources like XDA Forums. However, many of [these resources](./docs/legacy-articles.md) have become outdated as Android continues to evolve, with new features introduced and older ones deprecated over time.
+# Baklava
+## Wiki
+All contents are in `docs`
+## Website
+The website is powered by VitePress. They are also viewable offline by running `website/start.sh` and navigating to `http://localhost:5173`
 
-This project is dedicated to keeping up with the latest developments in the Android Platform, consolidating all relevant information into a single comprehensive wiki.
-
-Start reading from [here](./docs/index.md)
-
-## Contribute
-Contributions are welcome—submit pull requests to help maintain this resource!
+> [!IMPORTANT]
+> This repo is stale until 2025-07. All pull requests will be resolved after this time

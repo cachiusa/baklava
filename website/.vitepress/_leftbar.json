@@ -1,0 +1,11 @@
+{
+    "/": [
+        { "text": "Wiki", "items": [
+            { "text": "Home", "link": "/" },
+            { "text": "Disclaimer", "link": "/disclaimer" },
+            { "text": "Credits", "link": "/credits" },
+            { "text": "License", "link": "/license" }
+        ]},
+        { "text": "Android", "link": "/android/" }
+    ]
+}
