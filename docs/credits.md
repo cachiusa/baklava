@@ -1,3 +1,3 @@
 # Credits
-Funding for this program was made possible by- by- by- by-
+Funding for this program was made possible by
 - [cachiusa](https://github.com/cachiusa)

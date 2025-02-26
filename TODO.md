@@ -1,7 +1,8 @@
+## website
 * fix dead links
 * fix leftbar & topbar
 * squash once website is stable
-
+## wiki
 * apex
 * telephony
 * permission
@@ -21,3 +22,7 @@
 * safetynet
 * update_engine
 * https://source.android.com/docs/core/ota/ab/ab_implement
+* bionic - Android C standard library
+* treble
+* https://source.android.com/docs/core/architecture/partitions/ramdisk-partitions
+* https://xdaforums.com/t/twrp-flags-for-boardconfig-mk.3333970/
