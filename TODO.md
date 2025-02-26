@@ -1,7 +1,10 @@
 ## website
 * fix dead links
 * fix leftbar & topbar
-* squash once website is stable
+* publish when stable
+  * Squash commits
+  * remove robots.txt
+
 ## wiki
 * apex
 * telephony

@@ -1,4 +1,6 @@
 [
-    { "text": "Android Platform", "link": "/android/platform" },
-    { "text": "Community", "link": "/android/community" }
+    { "text": "Android", "items": [
+        { "text": "Platform", "link": "/android/platform" },
+        { "text": "Community", "link": "/android/community" }
+    ]}
 ]

@@ -3,7 +3,7 @@ lastUpdated: 2025-02-22
 ---
 
 # The Starter kit for Android Platform Engineering
-Archive of https://siddroid.com/post/android/the-starter-kit-for-android-platform-engineering (2024-06-21)
+Archived from https://siddroid.com/post/android/the-starter-kit-for-android-platform-engineering (2024-06-21)
 
 Author: [@Siddroid](https://twitter.com/Siddroid)
 
