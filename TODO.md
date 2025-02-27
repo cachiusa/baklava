@@ -29,3 +29,4 @@
 * treble
 * https://source.android.com/docs/core/architecture/partitions/ramdisk-partitions
 * https://xdaforums.com/t/twrp-flags-for-boardconfig-mk.3333970/
+* vold
