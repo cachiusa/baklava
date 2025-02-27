@@ -7,8 +7,8 @@
             { "text": "License", "link": "/license" }
         ]},
         { "text": "AOSP", "items": [
-            { "text": "Platform", "link": "/android/platform" },
-            { "text": "Community resources", "link": "/android/community" }
+            { "text": "Platform", "link": "/android/platform/" },
+            { "text": "Community resources", "link": "/android/community/" }
         ]}
     ],
     "/architecture/": [
@@ -31,12 +31,12 @@
             { "text": "Beginner's guide", "link": "/community/device-bringup" }
         ]},
 
-        { "text": "OEM Knowledege Base", "items": [
+        { "text": "OEM Knowledege Base", "link": "/community/oem", "collapsed": true, "items": [
             { "text": "Google", "link": "/community/oem/google" },
             { "text": "Qualcomm", "link": "/community/oem/qualcomm" },
             { "text": "Samsung", "link": "/community/oem/samsung" },
             { "text": "Xiaomi", "link": "/community/oem/xiaomi" }
-        ], "link": "/community/oem", "collapsed": true },
+        ]},
 
         { "text": "Miscellaneous", "items": [
             { "text": "Prebuilt toolchains", "link": "/community/prebuilt-toolchains" }

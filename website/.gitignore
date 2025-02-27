@@ -148,6 +148,3 @@ pnpm-global
 TODOs.md
 
 cache
-
-# Don't index symlinks
-docs/

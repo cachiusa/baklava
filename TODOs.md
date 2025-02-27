@@ -19,7 +19,7 @@
 * com.android.shell
 * com.google.android.gms
 * compatitbility test suite
-* key attestation
+* ~~key attestation~~
 * launcher3
 * play integrity
 * safe boot mode
