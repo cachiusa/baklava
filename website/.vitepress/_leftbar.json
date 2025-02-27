@@ -2,8 +2,13 @@
     "/": [
         { "text": "Wiki", "items": [
             { "text": "Home", "link": "/" },
+            { "text": "Disclaimer", "link": "/disclaimer" },
             { "text": "Credits", "link": "/credits" },
             { "text": "License", "link": "/license" }
+        ]},
+        { "text": "AOSP", "items": [
+            { "text": "Platform", "link": "/android/platform" },
+            { "text": "Community resources", "link": "/android/community" }
         ]}
     ],
     "/architecture/": [

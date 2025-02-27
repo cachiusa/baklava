@@ -4,6 +4,7 @@
 * publish when stable
   * Squash commits
   * remove robots.txt
+* sidebar.json generator
 
 ## wiki
 * apex

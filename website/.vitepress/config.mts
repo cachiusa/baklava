@@ -1,7 +1,7 @@
 import { defineConfig } from "vitepress";
 import { tabsMarkdownPlugin } from "vitepress-plugin-tabs";
-import leftbar from "../_leftbar.json";
-import topbar from "../_topbar.json";
+import leftbar from "./_leftbar.json";
+import topbar from "./_topbar.json";
 
 const sitename = "Baklava"
 const sitegithub = "cachiusa/baklava"
