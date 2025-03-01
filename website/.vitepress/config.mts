@@ -12,7 +12,7 @@ export default defineConfig({
     title: sitename,
     description: "A community-driven wiki of the Android Platform",
 
-    srcDir: "../docs",
+    srcDir: "docs",
     cleanUrls: true,
 
     base: sitebase,
