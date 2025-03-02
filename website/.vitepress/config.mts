@@ -5,7 +5,7 @@ import topbar from "./_topbar.json";
 
 const sitename = "Baklava"
 const sitegithub = "cachiusa/baklava"
-const sitebase = "/baklava/"
+const sitebase = "/"
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
