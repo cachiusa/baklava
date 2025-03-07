@@ -1,11 +1,14 @@
 # Home
-![Site logo](/icons/studio_platform.svg)
-## About wiki
+![Site logo](/icons/baklava.svg)
+
+Baklava is a wiki dedicated to mobile platforms like Android.
+
+The name and logo of this wiki comes from Android 16. Original logo is licensed under Apache-2.0.
 
 > [!IMPORTANT]
 > This repo is stale until 2025-07. All pull requests will be resolved after this time
 
-## Get started
+## Browse
 ::: tip [Android Open Source Project](android/index.md)
 :::
 
