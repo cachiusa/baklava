@@ -7,6 +7,7 @@
 * sidebar.json generator
 
 ## wiki
+* https://github.com/doridori/Android-Security-Reference
 * apex
 * telephony
 * permission
