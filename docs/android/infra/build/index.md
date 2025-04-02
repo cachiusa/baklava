@@ -6,4 +6,4 @@ There are altogether three build systems used in Android:
   `BUILD.bazel`.
 
 # Soong
-https://android.googlesource.com/platform/build/soong
+https://android.googlesource.com/platform/build
