@@ -1,5 +1,5 @@
 ---
-lastUpdated: 2025-02-15
+lastUpdated: 2025-03-03
 ---
 
 # Prebuilt toolchains to build Android and Linux kernel
@@ -24,7 +24,6 @@ lastUpdated: 2025-02-15
 | LineageOS | [Repo](https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9) | 4.9 | aarch64-linux-android | Archive of AOSP |
 | LineageOS | [Repo](https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9) | 4.9 | x86_64-linux-android | Archive of AOSP |
 | LineageOS | [Repo](https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9) | 4.9 | arm-linux-androideabi | Archive of AOSP |
-| LineageOS | [Repo](https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9) | 4.9 | aarch64-linux-android | Archive of AOSP |
 | LineageOS | [Repo](https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.3.1) | 6.3.1 | aarch64-linux-gnu | Archive of Linaro |
 | LineageOS | [Repo](https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-6.4.1) | 6.4.1 | aarch64-linux-gnu | Archive of Linaro |
 | LineageOS | [Repo](https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-9.3) | 9.3 | aarch64-linux-gnu | Archive of Bootlin |
