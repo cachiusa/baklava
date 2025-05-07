@@ -8,9 +8,5 @@ This project is dedicated to keeping up with the latest developments in the Andr
 ::: tip [Android Platform](platform/index.md)
 :::
 
-::: warning [Community resources](community/index.md)
-:::
-
-
 ---
 > Android is a trademark of Google LLC. Baklava is not affiliated with Google
