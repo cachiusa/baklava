@@ -1,1 +1,0 @@
-https://github.com/TomKing062/CVE-2022-38694_unlock_bootloader
